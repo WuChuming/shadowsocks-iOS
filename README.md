@@ -4,8 +4,8 @@
 Shadowsocks for iOS and OSX
 ===========================
 <img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2835.jpg"/>
-<img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2837.png"/>
-<img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2838.png"/>
+<img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2837.PNG"/>
+<img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2838.PNG"/>
 <img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2839.jpg"/>
 
 iOS
