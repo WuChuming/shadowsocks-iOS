@@ -1,7 +1,6 @@
 
 
-![image](https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2835.jpg)
-
+<img width="375" height="667" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2835.jpg"/>
 Shadowsocks for iOS and OSX
 ===========================
 
