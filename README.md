@@ -14,14 +14,14 @@ MAC版是不用怎么配置的，安装了设置了就可以直接使用，以�
   当你来找这个的时候，我想你已经配置好了！不知道怎么配，就再用用百度看看先！<br>
 2.下载项目,打开终端，cd到项目的目录，pod一下<br>
 3.连接手机，启动项目，（如果不成功一般是你证书的问题）<br>
-4.点击项目右上角图标，如下图，配置你对应的密码，端口等信息<br>
+4.点击项目右上角图标，如下图，配置你对应的服务器地址,密码，端口,加密方式，模式等信息<br>
 <img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2838.PNG"/><br>
 5.设置一下，你wifi的代理，如下图<br>
 <img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2839.jpg"/><br>
 
 6.然后，就没有然后了！去试一下吧！！<br><br>
 
-有一些注意事项，在帮助里有讲到：<br>
+有一些注意事项，在APP的帮助里有讲到：<br>
 <img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2835.jpg"/><br>
 
 
