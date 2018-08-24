@@ -1,11 +1,9 @@
 
-https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2835.jpg
 
+[![iOS Icon](https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2835.jpg)]
 
 Shadowsocks for iOS and OSX
 ===========================
-[![Build Status](https://travis-ci.org/shadowsocks/shadowsocks-iOS.svg?branch=master)](https://travis-ci.org/shadowsocks/shadowsocks-iOS)
-
 
 iOS
 -----
