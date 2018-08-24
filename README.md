@@ -1,6 +1,6 @@
 
 
-[![iOS Icon](https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2835.jpg)]
+![iOS Icon](https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2835.jpg)
 
 Shadowsocks for iOS and OSX
 ===========================
