@@ -26,7 +26,3 @@ Mailing list: http://groups.google.com/group/shadowsocks
 
 Also see [troubleshooting](https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting)
 # shadowsocks-iOS
-# shadowsocks-iOS
-# shadowsocks-iOS
-# shadowsocks-iOS
-# shadowsocks-iOS
