@@ -21,7 +21,7 @@ MAC版是不用怎么配置的，安装了设置了就可以直接使用，以�
 5.设置一下，你wifi的代理，如下图<br>
 <img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2839.jpg"/><br>
 
-6.然后，就没有然后了！去试一下吧！！<br><br>
+6.然后，就没有然后了！去试一下吧！！不使用shadowsocks，记得关一下代理!开着代理，有的应用会报没网络<br><br>
 
 有一些注意事项，在APP的帮助里有讲到：<br>
 <img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2835.jpg"/><br>
