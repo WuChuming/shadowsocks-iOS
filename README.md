@@ -25,6 +25,7 @@ MAC版是不用怎么配置的，安装了设置了就可以直接使用，以�
 
 有一些注意事项，在APP的帮助里有讲到：<br>
 <img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/IMG_2835.jpg"/><br>
+注意：
 本项目加入了 应用后台一直运行的功能（背景音乐原理），这样就不用定时去打开项目，如果小伙伴们不需要的话，请删除文件夹runInBg和里面的文件，以及删除appdelegate部分代码即可！
 
 iOS
