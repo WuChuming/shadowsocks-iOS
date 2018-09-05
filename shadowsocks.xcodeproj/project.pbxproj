@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		0422E0191D1948BB00CCA401 /* SWBackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422E0181D1948BB00CCA401 /* SWBackgroundTask.m */; };
 		049DB1BF1D17CD6100B956E1 /* SWBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 049DB1BC1D17CD6100B956E1 /* SWBUtils.m */; };
-		295D10C91F98E8F5002824AE /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295D10C81F98E8F5002824AE /* NetworkExtension.framework */; };
+		2AB227DC213F6FFC001A929A /* mysong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AB227D9213F6FFC001A929A /* mysong.mp3 */; };
+		2AB227DD213F6FFC001A929A /* RunInBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB227DB213F6FFC001A929A /* RunInBackground.m */; };
 		6205309618D4443E00887D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621571AA16CF6BCB003D96B4 /* Foundation.framework */; };
 		6205309918D4443E00887D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205309818D4443E00887D3E /* main.m */; };
 		620530A518D4444E00887D3E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629AC93F18B49C33001D2771 /* SystemConfiguration.framework */; };
@@ -240,7 +241,9 @@
 		09F7E8426329C76040380F0A /* Pods-libshadowsocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libshadowsocks.release.xcconfig"; path = "Pods/Target Support Files/Pods-libshadowsocks/Pods-libshadowsocks.release.xcconfig"; sourceTree = "<group>"; };
 		13E25C0B403960F5980F8A97 /* Pods-shadowsocks_sysconf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shadowsocks_sysconf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shadowsocks_sysconf/Pods-shadowsocks_sysconf.debug.xcconfig"; sourceTree = "<group>"; };
 		295D10C71F98E87F002824AE /* shadowsocks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = shadowsocks.entitlements; sourceTree = "<group>"; };
-		295D10C81F98E8F5002824AE /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		2AB227D9213F6FFC001A929A /* mysong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mysong.mp3; sourceTree = "<group>"; };
+		2AB227DA213F6FFC001A929A /* RunInBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunInBackground.h; sourceTree = "<group>"; };
+		2AB227DB213F6FFC001A929A /* RunInBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunInBackground.m; sourceTree = "<group>"; };
 		3C37277C988C81455B93297F /* Pods-ShadowsocksX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowsocksX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShadowsocksX/Pods-ShadowsocksX.debug.xcconfig"; sourceTree = "<group>"; };
 		5CC3AE10A48F708BD20F29CB /* libPods-shadowsocks_sysconf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shadowsocks_sysconf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6205309518D4443E00887D3E /* shadowsocks_sysconf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shadowsocks_sysconf; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -509,7 +512,6 @@
 				62E27E5C18C1D0F90086033D /* libz.dylib in Frameworks */,
 				6274847518B1FD9B00A9CDF0 /* libZXingObjC-iOS.a in Frameworks */,
 				6274847418B1FD7900A9CDF0 /* ImageIO.framework in Frameworks */,
-				295D10C91F98E8F5002824AE /* NetworkExtension.framework in Frameworks */,
 				6274847218B1FD6F00A9CDF0 /* QuartzCore.framework in Frameworks */,
 				6274847018B1FD6500A9CDF0 /* CoreMedia.framework in Frameworks */,
 				6274846E18B1FD5C00A9CDF0 /* CoreVideo.framework in Frameworks */,
@@ -559,6 +561,7 @@
 		0422E0111D19462200CCA401 /* ShadowsocksIOS */ = {
 			isa = PBXGroup;
 			children = (
+				2AB227D8213F6FFC001A929A /* runInBg */,
 				621571CF16CF6D1F003D96B4 /* ToolBar */,
 				621571EC16CF7810003D96B4 /* Others */,
 				621571AF16CF6BCB003D96B4 /* Supporting Files */,
@@ -580,6 +583,16 @@
 				EB189E412781A71BA967EECE /* ShadowsocksRunner.h */,
 			);
 			name = ShadowsocksIOS;
+			sourceTree = "<group>";
+		};
+		2AB227D8213F6FFC001A929A /* runInBg */ = {
+			isa = PBXGroup;
+			children = (
+				2AB227D9213F6FFC001A929A /* mysong.mp3 */,
+				2AB227DA213F6FFC001A929A /* RunInBackground.h */,
+				2AB227DB213F6FFC001A929A /* RunInBackground.m */,
+			);
+			path = runInBg;
 			sourceTree = "<group>";
 		};
 		6205309718D4443E00887D3E /* shadowsocks_sysconf */ = {
@@ -629,7 +642,6 @@
 		621571A716CF6BCB003D96B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				295D10C81F98E8F5002824AE /* NetworkExtension.framework */,
 				62E2E19A1A5AB23700C9A2E1 /* Security.framework */,
 				62E2E1981A5AB21E00C9A2E1 /* SystemConfiguration.framework */,
 				628C91C51A07B6C800BA1566 /* QuartzCore.framework */,
@@ -1138,14 +1150,14 @@
 				ORGANIZATIONNAME = clowwindy;
 				TargetAttributes = {
 					621571A416CF6BCB003D96B4 = {
-						DevelopmentTeam = 828AB68DYZ;
+						DevelopmentTeam = 7G5HR36TYN;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
 							com.apple.VPNLite = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -1238,6 +1250,7 @@
 				62D85AB5176DAA7200FE5575 /* silence.wav in Resources */,
 				EB189096BC8B91FA0F60A34C /* 3gnet_disable.mobileconfig in Resources */,
 				EB1890D6331E61914013309F /* polipo_disable.config in Resources */,
+				2AB227DC213F6FFC001A929A /* mysong.mp3 in Resources */,
 				EB189E8C8B1866196A4DA43B /* about.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1502,6 +1515,7 @@
 				EB189E4CAA0DEF020070DC84 /* SWBAboutController.m in Sources */,
 				EB189DBA13C945ADF838DF2C /* QRCodeViewController.m in Sources */,
 				EB1896F6F5F2468484F67FAD /* ShadowsocksRunner.m in Sources */,
+				2AB227DD213F6FFC001A929A /* RunInBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1757,11 +1771,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = shadowsocks.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 828AB68DYZ;
+				DEVELOPMENT_TEAM = 7G5HR36TYN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1788,11 +1801,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = shadowsocks.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 828AB68DYZ;
+				DEVELOPMENT_TEAM = 7G5HR36TYN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
