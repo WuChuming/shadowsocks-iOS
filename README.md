@@ -28,6 +28,13 @@ MAC版是不用怎么配置的，安装了设置了就可以直接使用，以�
 注意：
 本项目加入了 应用后台一直运行的功能（背景音乐原理），这样就不用定时去打开项目，如果小伙伴们不需要的话，请删除文件夹runInBg和里面的文件，以及删除appdelegate部分代码即可！
 
+2018年10月20日更新
+----
+Xcode10后，报错
+<img width="187.5" height="333.5" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/xcode10%E6%8A%A5%E9%94%99.png"/><br>
+处理的方式：
+给项目对应的位置(.../shadowsocks-iOS/OpenSSL-for-iPhone/lib/)添加了静态库 libcrypto.a
+
 iOS
 -----
 [![iOS Icon](https://raw.github.com/shadowsocks/shadowsocks-iOS/master/ios_128.png)](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help)  
