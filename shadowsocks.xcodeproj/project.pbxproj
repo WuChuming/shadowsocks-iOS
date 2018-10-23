@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0422E0191D1948BB00CCA401 /* SWBackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422E0181D1948BB00CCA401 /* SWBackgroundTask.m */; };
 		049DB1BF1D17CD6100B956E1 /* SWBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 049DB1BC1D17CD6100B956E1 /* SWBUtils.m */; };
-		2A158C2C217F2C06001A20FA /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A158C27217F2C06001A20FA /* libcrypto.a */; };
 		2AB227DC213F6FFC001A929A /* mysong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AB227D9213F6FFC001A929A /* mysong.mp3 */; };
 		2AB227DD213F6FFC001A929A /* RunInBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB227DB213F6FFC001A929A /* RunInBackground.m */; };
 		6205309618D4443E00887D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621571AA16CF6BCB003D96B4 /* Foundation.framework */; };
@@ -242,7 +241,6 @@
 		09F7E8426329C76040380F0A /* Pods-libshadowsocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libshadowsocks.release.xcconfig"; path = "Pods/Target Support Files/Pods-libshadowsocks/Pods-libshadowsocks.release.xcconfig"; sourceTree = "<group>"; };
 		13E25C0B403960F5980F8A97 /* Pods-shadowsocks_sysconf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shadowsocks_sysconf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shadowsocks_sysconf/Pods-shadowsocks_sysconf.debug.xcconfig"; sourceTree = "<group>"; };
 		295D10C71F98E87F002824AE /* shadowsocks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = shadowsocks.entitlements; sourceTree = "<group>"; };
-		2A158C27217F2C06001A20FA /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		2AB227D9213F6FFC001A929A /* mysong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mysong.mp3; sourceTree = "<group>"; };
 		2AB227DA213F6FFC001A929A /* RunInBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunInBackground.h; sourceTree = "<group>"; };
 		2AB227DB213F6FFC001A929A /* RunInBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunInBackground.m; sourceTree = "<group>"; };
@@ -522,7 +520,6 @@
 				621FCC091760400800411E5F /* CFNetwork.framework in Frameworks */,
 				621FCC071760400400411E5F /* MobileCoreServices.framework in Frameworks */,
 				96D80C05176CE1D7006C8078 /* AVFoundation.framework in Frameworks */,
-				2A158C2C217F2C06001A20FA /* libcrypto.a in Frameworks */,
 				62CD119A175E3BD7008C4D0C /* libcrypto.a in Frameworks */,
 				628693EC16DA2706008B1A26 /* SystemConfiguration.framework in Frameworks */,
 				621571A916CF6BCB003D96B4 /* UIKit.framework in Frameworks */,
@@ -588,15 +585,6 @@
 			name = ShadowsocksIOS;
 			sourceTree = "<group>";
 		};
-		2A158C26217F2C06001A20FA /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				2A158C27217F2C06001A20FA /* libcrypto.a */,
-			);
-			name = lib;
-			path = "OpenSSL-for-iPhone/lib";
-			sourceTree = "<group>";
-		};
 		2AB227D8213F6FFC001A929A /* runInBg */ = {
 			isa = PBXGroup;
 			children = (
@@ -627,7 +615,6 @@
 		6215719C16CF6BCA003D96B4 = {
 			isa = PBXGroup;
 			children = (
-				2A158C26217F2C06001A20FA /* lib */,
 				295D10C71F98E87F002824AE /* shadowsocks.entitlements */,
 				0422E0111D19462200CCA401 /* ShadowsocksIOS */,
 				621571AE16CF6BCB003D96B4 /* ShadowWeb */,
