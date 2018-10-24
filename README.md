@@ -33,7 +33,7 @@ MAC版是不用怎么配置的，安装了设置了就可以直接使用，以�
 Xcode10后，报错<br>
 <img width="500" height="34" src="https://github.com/WuChuming/shadowsocks-iOS/blob/master/xcode10%E6%8A%A5%E9%94%99.png"/><br>
 处理的方式：
-给项目对应的位置(.../shadowsocks-iOS/OpenSSL-for-iPhone/lib/)添加了静态库 libcrypto.a
+给项目对应的位置(.../shadowsocks-iOS/OpenSSL-for-iPhone/lib/)添加了静态库 libcrypto.a (项目根目录有lib文件夹，移到OpenSSL-for-iphone文件夹)
 
 iOS
 -----
