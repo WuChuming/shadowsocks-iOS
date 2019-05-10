@@ -4,7 +4,7 @@
 Shadowsocks for iOS and OSX
 ===========================
 
-是不是想找这个（wingy）：
+有个很好的轮子（Wingy）：
 链接: https://pan.baidu.com/s/1BESw5XwlKP4ri1kI6Lomow 提取码: ugsk 复制这段内容后打开百度网盘手机App，操作更方便哦
 
 
