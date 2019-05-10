@@ -5,7 +5,7 @@ Shadowsocks for iOS and OSX
 ===========================
 
 有个很好的轮子（Wingy）：
-链接: https://pan.baidu.com/s/1BESw5XwlKP4ri1kI6Lomow 提取码: ugsk 复制这段内容后打开百度网盘手机App，操作更方便哦
+链接: https://pan.baidu.com/s/1BESw5XwlKP4ri1kI6Lomow 提取码: ugsk 
 
 
 今天登陆github，看到好多小伙伴fork我这个库！有点小惊喜。本来这库是备份使用的，为了让小伙伴们感受到shadowsocks的魅力，我把这个项目的使用步骤描述一下！避免大家浪费时间！<br>
