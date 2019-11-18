@@ -4,9 +4,7 @@
 Shadowsocks for iOS and OSX
 ===========================
 
-有个很好的轮子（Wingy）：
-链接: https://pan.baidu.com/s/1BESw5XwlKP4ri1kI6Lomow 提取码: ugsk 
-
+$\color{rgb(255,0,0)}{客户端，我推荐使用 shadowrocket(小火箭)，不单支持ss,ssr也支持vmess 还有其它各种协议！很强大！提供很多学习方向，切换个其它区的appleID，AppSotore搜索shadowrocket，花个2.99美金买一个吧！！值}$
 
 今天登陆github，看到好多小伙伴fork我这个库！有点小惊喜。本来这库是备份使用的，为了让小伙伴们感受到shadowsocks的魅力，我把这个项目的使用步骤描述一下！避免大家浪费时间！<br>
 这个库，旨在学习网络知识以及方便平时查找学习资料！<br>
